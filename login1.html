@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile  </title>
+</head>
+<body>
+    <link rel="stylesheet" href="mystyle3.css">
+    <div class="logo">
+        <a href="home.html">   
+            <img src="logo.png" alt="">
+            
+        </a> 
+    </div> 
+    <img id="bg" src="image 16.png" alt="image">
+    <div class="wrapper" >
+        <h3>Log in</h3>
+        <form onsubmit="return validateInputs()">
+                <input type = "email"  id="fname" placeholder="Your email"><br>
+                
+                <input type="password"  id="pwd" placeholder="Your password"><br>
+                <!-- <span id = "message" style="color:red"></span> -->
+                
+                <input type="submit" value="Log In" id="submit" onclick="validateInputs()" style="color: rgb(255, 255, 255); background-color: #6496EB;cursor: pointer;">
+                <span id="error1"></span>
+            </form>
+    </div>
+    <div id="footer">
+        <h4>Tracker</h4><br>
+        <hr><br>
+        <p>Home</p><span class="tab"></span>
+        <p>Contact us</p><span class="tab"></span>
+        <p>About us</p>
+        <p class="foot_nm">© 2022 Tracker. All rights reserved.</p>
+        
+        
+        
+    </div>
+    <script src="javascript.js"></script>
+    
+        </div>
+        </body>
+        </html>
