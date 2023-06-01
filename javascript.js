@@ -12,7 +12,7 @@ function validateInputs(){
     var email = document.getElementById("fname").value;
     var password = document.getElementById("pwd").value;
     var error = document.getElementById("error1");
-    if(email == "admin@gmail.com" && password == "abc123"){
+    if(email == " tracker@gmail.com" && password == "tracker@24"){
         window.location.assign("home.html");
         error.textContent="";
         return false;
